@@ -11,6 +11,7 @@
 		1C9CF17B2AB1CCAE002C85D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CF17A2AB1CCAE002C85D8 /* ContentView.swift */; };
 		1C9CF17D2AB1CCAF002C85D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9CF17C2AB1CCAF002C85D8 /* Assets.xcassets */; };
 		1C9CF1802AB1CCAF002C85D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9CF17F2AB1CCAF002C85D8 /* Preview Assets.xcassets */; };
+		1C9CF1872AB1D6AE002C85D8 /* TitanicClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CF1862AB1D6AE002C85D8 /* TitanicClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1C9CF17A2AB1CCAE002C85D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C9CF17C2AB1CCAF002C85D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C9CF17F2AB1CCAF002C85D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C9CF1862AB1D6AE002C85D8 /* TitanicClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TitanicClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1C9CF1782AB1CCAE002C85D8 /* titanicApp.swift */,
 				1C9CF17A2AB1CCAE002C85D8 /* ContentView.swift */,
+				1C9CF1862AB1D6AE002C85D8 /* TitanicClassifier.mlmodel */,
 				1C9CF17C2AB1CCAF002C85D8 /* Assets.xcassets */,
 				1C9CF17E2AB1CCAF002C85D8 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				1C9CF17B2AB1CCAE002C85D8 /* ContentView.swift in Sources */,
 				1C9CF1792AB1CCAE002C85D8 /* titanicApp.swift in Sources */,
+				1C9CF1872AB1D6AE002C85D8 /* TitanicClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
